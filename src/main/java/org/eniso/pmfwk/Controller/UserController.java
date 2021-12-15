@@ -1,8 +1,8 @@
-package org.example.Controller;
+package org.eniso.pmfwk.Controller;
 
 import io.dropwizard.hibernate.UnitOfWork;
-import org.example.DAO.UserDAO;
-import org.example.Entity.User;
+import org.eniso.pmfwk.DAO.UserDAO;
+import org.eniso.pmfwk.Entity.User;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;

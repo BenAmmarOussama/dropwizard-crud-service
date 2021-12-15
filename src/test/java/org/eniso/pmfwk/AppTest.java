@@ -1,4 +1,4 @@
-package org.example;
+package org.eniso.pmfwk;
 
 import static org.junit.Assert.assertTrue;
 

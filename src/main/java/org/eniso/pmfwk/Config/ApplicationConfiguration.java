@@ -1,4 +1,4 @@
-package org.example.Config;
+package org.eniso.pmfwk.Config;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;

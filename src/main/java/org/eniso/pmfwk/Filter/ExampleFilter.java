@@ -1,13 +1,8 @@
-package org.example.Filter;
+package org.eniso.pmfwk.Filter;
 
-import org.example.utils.JwtUtil;
-import org.example.old.Message;
-
-import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
 import javax.ws.rs.core.HttpHeaders;
-import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 import java.io.IOException;
 

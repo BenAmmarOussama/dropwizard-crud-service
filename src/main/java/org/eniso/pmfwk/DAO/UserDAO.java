@@ -1,7 +1,7 @@
-package org.example.DAO;
+package org.eniso.pmfwk.DAO;
 
 import io.dropwizard.hibernate.AbstractDAO;
-import org.example.Entity.User;
+import org.eniso.pmfwk.Entity.User;
 import org.hibernate.SessionFactory;
 
 import java.util.List;

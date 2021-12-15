@@ -1,4 +1,4 @@
-package org.example.old;
+package org.eniso.pmfwk.old;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package org.example.Entity;
+package org.eniso.pmfwk.Entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

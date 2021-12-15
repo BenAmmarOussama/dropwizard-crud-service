@@ -1,8 +1,8 @@
-package org.example.Controller;
+package org.eniso.pmfwk.Controller;
 
 import io.dropwizard.hibernate.UnitOfWork;
-import org.example.DAO.EquipmentDAO;
-import org.example.Entity.Equipment;
+import org.eniso.pmfwk.DAO.EquipmentDAO;
+import org.eniso.pmfwk.Entity.Equipment;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;

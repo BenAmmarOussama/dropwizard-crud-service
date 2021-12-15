@@ -1,10 +1,10 @@
-package org.example.utils;
+package org.eniso.pmfwk.utils;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.example.old.Message;
+import org.eniso.pmfwk.old.Message;
 
 public class JwtUtil {
 

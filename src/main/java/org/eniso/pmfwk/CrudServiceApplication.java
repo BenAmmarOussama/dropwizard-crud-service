@@ -1,18 +1,17 @@
-package org.example;
+package org.eniso.pmfwk;
 
 import io.dropwizard.Application;
 import io.dropwizard.db.DataSourceFactory;
 import io.dropwizard.hibernate.HibernateBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
-import org.example.Config.ApplicationConfiguration;
-import org.example.Controller.EquipmentController;
-import org.example.Controller.UserController;
-import org.example.DAO.EquipmentDAO;
-import org.example.DAO.UserDAO;
-import org.example.Entity.Equipment;
-import org.example.Entity.User;
-import org.example.Filter.ExampleFilter;
+import org.eniso.pmfwk.Config.ApplicationConfiguration;
+import org.eniso.pmfwk.Controller.EquipmentController;
+import org.eniso.pmfwk.Controller.UserController;
+import org.eniso.pmfwk.DAO.EquipmentDAO;
+import org.eniso.pmfwk.DAO.UserDAO;
+import org.eniso.pmfwk.Entity.Equipment;
+import org.eniso.pmfwk.Entity.User;
 
 public class CrudServiceApplication extends Application<ApplicationConfiguration> {
     public static void main(String[] args) throws Exception {
@@ -39,7 +38,7 @@ public class CrudServiceApplication extends Application<ApplicationConfiguration
         final UserDAO userDAO = new UserDAO(hibernateBundle.getSessionFactory());
         environment.jersey().register(new EquipmentController(equipmentDAO));
         environment.jersey().register(new UserController(userDAO));
-        environment.jersey().register(ExampleFilter.class);
+        // environment.jersey().register(ExampleFilter.class);
     }
 
 }
